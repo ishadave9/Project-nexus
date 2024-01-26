@@ -1,0 +1,78 @@
+body{
+    margin: 2px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+}
+nav{
+    width: 100%;
+    background-color:lightblue;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 40px;
+    color:darkmagenta;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-left: 50px;
+}
+a{
+    text-decoration: none;
+    color:darkmagenta;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    margin: 0px;
+}
+ul li{
+    float:left;
+    padding: 0px 10px;
+}
+ul a:hover{
+    color:brown;
+}
+.header{
+    background-color:  lightsteelblue;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: navy;
+    justify-content:center;
+    align-items: center;
+}
+.content h1{
+    font-size: 50px;
+    align-items:center;
+    left: 60%;
+    color:navy;
+}
+.content p{
+    padding: 0px 50px;
+    font-size: 18px;
+}
+
+.btn{
+    background:none;
+    color: white;
+    font-size: 22px;
+    padding: 20px 25px;
+    margin: 5px;
+    border-radius: 15px;
+    position: absolute;
+    transition: 0.5 all ease;
+    justify-content: center;
+    align-items:center;
+    left: 39%;
+}
