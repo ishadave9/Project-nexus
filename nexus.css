@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Home Section Styles */
+.home-section {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* About Section Styles */
+.about-section {
+    padding: 50px 0;
+}
+
+/* Products/Services Section Styles */
+.products-section {
+    background-color: #eaeaea;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Contact Section Styles */
+.contact-section {
+    padding: 50px 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-links a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+}
